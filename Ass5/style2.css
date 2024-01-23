@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa', cursive;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: #dfdfdf;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logo{
+    width: 30%;
+    height: 90%;
+    /* background-color: yellow; */
+    padding-top: 10px;
+    
+}
+.menu{
+    width: 60%;
+    height: 100%;
+}
+#hold{
+    color: grey;
+}
+.menu>ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+.menu>ul>li{
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 80%;
+    margin: 0 10px 0 10px;  
+    display: flex;
+         
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.menu>ul>li>a:hover{
+    color: grey;
+}
+.menu>ul>li>.dropdown>ul{
+    position: absolute;
+    width: 230px;
+    height: 300px;
+    background: #dfdfdf;
+    margin-top: 20px;
+    margin-left: -100px;
+    visibility: hidden;
+    list-style: none;
+} 
+.menu>ul>li>.dropdown>ul>li{
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+    /* background-color: aqua; */
+
+}
+.menu>ul>li>.dropdown>ul>li>a{
+    text-decoration: none;  
+    font-size: 18px;
+    color: black;
+    transition: .900ms;
+    /* font-weight: bold; */
+}
+.menu>ul>li:hover .dropdown>ul{
+    visibility: visible;
+}
+.menu>ul>li:hover .dropdown>ul>li>a:hover{
+    margin: 10px;
+    color: grey;
+}
+.container-about{
+    margin-top: 20px    ;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    /* background-color: aqua; */
+}
+.container-about>img{
+    position: absolute;
+    max-width: 100%;
+    max-width: 100%;
+}
+.container-about>h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 38%;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+}
+.container-about>i{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 55%;
+    font-weight: normal;
+    color: white;
+}
+.About-us-skill{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+.About-us-skill>.explore-left{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.About-us-skill>.explore-right{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.About-us-skill>.explore-left>img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.About-us-skill>.explore-right>.about-icon>i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#amazing{
+    width: 80%;
+    height: 450px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 100px;
+}
+.card{
+    position: relative;
+}
+
+.black{
+    position: absolute;
+    width: 100%;
+    height: 73%;
+    visibility: hidden;     
+    background-color: rgba(0, 0, 0, 0.49);
+    transition: all .2s;
+}
+.icon-member01{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    
+}
+.icon-member01>i{
+    color: white;
+    font-size: 26px;
+    margin-right: 20px;
+}
+.card:hover .black{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.858);
+}
+/* email */
+.email-blocker{
+   
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    /* background-color: yellow; */
+    display: flex;
+     margin-top: 200px;
+}
+.email-blocker>.email-left{
+    width: 60%;
+    height: 100%;
+    /* background-color: green; */
+}
+.email-blocker>.email-left>.detail-top{
+    width: 100%;
+}
+
+.email-blocker>.email-left>.detail-top>h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.email-blocker>.email-left>.input-email{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.email-blocker>.email-left>.input-email>input{
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    border: 1px solid black ;
+}
+.email-blocker>.email-left>.input-email>button{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border:none;
+    background-color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.email-blocker>.email-left>.input-email>button:hover{
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+}
+
+.email-blocker>.email-center{
+    height: 90%;
+    width: 20%;
+    /* background-color: yellow; */
+
+}
+.email-blocker>.email-right{
+    height: 90%;
+    width: 20%;
+    /* background-color: yellow; */
+    /* color: gray; */
+}
+.email-blocker>.email-right>.a{
+    /* text-decoration: none; */
+    color: gray;
+}
+.email-blocker>.email-right>.a>a{
+    text-decoration: none;
+    color: gray;
+    transition: .3s;
+}
+.email-blocker>.email-right>.a>a:hover{
+    color: black;
+}
+
+/* contact */
+.contact{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(36, 36, 36);
+}
+.contact>.contact-top{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    /* background-color: yellow; */
+    padding-top: 4%;
+    display: flex;
+}
+.contact>hr{
+    width: 85%;
+    border: none;
+    background-color: grey;
+    height: .5px;
+    margin: auto;
+}
+.block2{
+    width: 25%;
+    height: 100%;
+    /* background-color: #000; */
+    /* display: flex; */
+}
+.block2>.logo{
+    width: 100%;
+    height: 40%;
+    
+}
+.block1>.a-tag{
+    padding-left: 10%;
+
+}
+.block2>.a-tag>a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    transition: .3s;
+}
+.block2>.a-tag>a:hover{
+    color: grey;
+}
+.contact-bottom{
+    width:85%;
+    height: 25%;
+    /* background-color: yellow; */
+    margin: auto;
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+}
+.contact-bottom>p>a{
+    text-decoration: none;
+    color: rgb(0, 221, 255);
+    transition: .3s;
+}
+.contact-bottom>p>a:hover{
+    color: coral;
+}
+.contact-bottom>.contact-icon>i{
+    font-size: 20px;
+    margin: 0px 5px 0px 5px;
+    color: rgb(0, 211, 255);
+    transition: .3s;
+}
+.contact-bottom>.contact-icon>i:hover{
+    color: coral;
+}

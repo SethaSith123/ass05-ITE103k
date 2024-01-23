@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>SethaShop</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <!-- Link google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+        <!-- Link cdnjs -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!-- link css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- nav bar -->
+        <div class="nav">
+            <div class="logo">
+                <h1 style="cursor: pointer;background-color: black;color:white;width: 10%;height: 100%;display: flex;justify-content: center;align-items: center;clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);">H</h1>
+                <div class="detail-logo" style="cursor: pointer;text-align: center; 20px;padding-left: 10px;">
+                    <h2>HEXASHOP</h2>
+                    <p style="font-size: 12px;color: gray;">ONLINE SHOPPING</p>
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+            
+                    <li><a href="Index.html" id="hold">Home</a></li>
+                    <li><a href="#men">Men's</a></li>
+                    <li><a href="#women">Women's</a></li>
+                    <li><a href="#kid">Kid's</a></li>
+                    <li><a href="#">Pages</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="product.html">Product</a></li>
+                                <li><a href="singleproduct.html">Single Product</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+        
+                    </li>
+                    <li><a href="#">Features</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">Features Page 1</a></li>
+                                <li><a href="#">Features Page 2</a></li>
+                                <li><a href="#">Features Page 3</a></li>
+                                <li><a href="#">Features Page 4</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="Index.html">Explore</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+        <!-- main -->
+        <div class="main-banner">
+            <div class="main-banner-left">
+                <div class="main-box">
+                    <img src="image-1.jpg" alt="">
+                    <h1>We Are Hexashop</h1><br>
+                    <i>Awesome, clean & creative HTML5 Template</i><br>
+                    <button>Purchase Now!</button>
+                </div>
+            </div>
+            <div class="main-banner-right">
+                <div class="main-block">
+                    <div class="main-block-box">
+                        <img src="image-2.jpg" alt="">
+                        <h3>Women</h3>
+                        <p> Best Clothes for Women</p>
+                    </div>
+                    <div class="main-block-box-hidden">
+                        <h2>Women</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, et?</p>
+                        <button>Discover More</button>
+                    </div>
+                </div>
+                <div class="main-block">
+                    <div class="main-block-box">
+                        <img src="image-3.jpg" alt="">
+                        <h3 style="left: 35%;">Men</h3>
+                        <p> Best Clothes for Men</p>
+                    </div>
+                    <div class="main-block-box-hidden">
+                        <h2>Men</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, et?</p>
+                        <button>Discover More</button>
+                    </div>
+                </div>
+                <div class="main-block">
+                    <div class="main-block-box">
+                        <img src="image-4.jpg" alt="">
+                        <h3 style="left: 35%;">Kids</h3>
+                        <p> Best Clothes for Kids</p>
+                    </div>
+                    <div class="main-block-box-hidden">
+                        <h2>Kids</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, et?</p>
+                        <button>Discover More</button>
+                    </div>
+                </div>
+                <div class="main-block">
+                    <div class="main-block-box">
+                        <img src="image-05.jpg" alt="">
+                        <h3>Accessories</h3>
+                        <p style="font-size: 18px;left: 30%;"> Best Trend Accessories</p>
+                    </div>
+                    <div class="main-block-box-hidden">
+                        <h2 style="left: 25%;">Accessories</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, et?</p>
+                        <button>Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space" id="men" style="width: 100%;height: 150px;"></div>
+
+        <!-- Swiper Men -->
+        <div class="swiperjs">
+            <div class="swiper-header">
+                <h1>Men's Latest</h1>
+                <p>Details to details is what makes Hexashop different from the other themes.</p>
+
+            </div>
+            <div class="swiper-body">
+                 <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="men-01.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Spring</h4>
+                                <p style="font-size: 14px;color: grey;">$120.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="men-02.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Air Force 1 X</h4>
+                                <p style="color: grey;font-size: 14px;">$90.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="men-03.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Love Nana '20</h4>
+                                <p style="color: grey;font-size: 14px;">$150.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="men-01.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Spring</h4>
+                                <p style="color: grey;font-size: 14px;">$120.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="men-02.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Air Force 1 X</h4>
+                                <p style="color: grey;font-size: 14px;">$90.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="men-03.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Love Nana '20</h4>
+                                <p style="font-size: 14px;color: grey;">$150.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <div class="space" id="women" style="width: 100%;height: 150px;"></div>
+        <!-- swiper women -->
+        <div class="swiperjs"  >
+            <div class="swiper-header">
+                <h1>Women's Latest</h1>
+                <p>Details to details is what makes Hexashop different from the other themes.</p>
+
+            </div>
+            <div class="swiper-body">
+                 <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="women-01.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Dress</h4>
+                                <p style="font-size: 14px;color: grey;">$45.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="women-02.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Spring Collection</h4>
+                                <p style="color: grey;font-size: 14px;">$130.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="women-03.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Spring</h4>
+                                <p style="color: grey;font-size: 14px;">$120.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="women-01.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Dress</h4>
+                                <p style="color: grey;font-size: 14px;">$45.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="women-02.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Spring Collection</h4>
+                                <p style="color: grey;font-size: 14px;">$130.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="women-03.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Spring</h4>
+                                <p style="font-size: 14px;color: grey;">$120.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="space" id="kid" style="width: 100%;height: 150px;"></div>
+
+        <!-- swiper kid's -->
+        <div class="swiperjs">
+            <div class="swiper-header">
+                <h1>Kid's Latest</h1>
+                <p>Details to details is what makes Hexashop different from the other themes.</p>
+
+            </div>
+            <div class="swiper-body">
+                 <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="kid-01.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">School Collection</h4>
+                                <p style="font-size: 14px;color: grey;">$80.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="kid-02.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Summer Cap</h4>
+                                <p style="color: grey;font-size: 14px;">$12.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="kid-03.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic Kid</h4>
+                                <p style="color: grey;font-size: 14px;">$30.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="kid-01.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">School Collection</h4>
+                                <p style="color: grey;font-size: 14px;">$105.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="kid-02.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Summer Cap</h4>
+                                <p style="color: grey;font-size: 14px;">$10.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div><div class="swiper-slide">
+                        <div class="swiper-image">
+                            <img src="kid-03.jpg" alt="">
+                            <div class="swiper-icon">
+                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-bottom">
+                            <div class="detail">
+                                <h4 style="padding-top:10px;">Classic kid</h4>
+                                <p style="font-size: 14px;color: grey;">$90.00</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div><br><br>
+        <!-- Explore -->
+        <div class="explore">
+            <div class="explore-left">
+                <h1 style="font-size: 38px;">Explore Our Products</h1><br>
+                <p style="color: grey;font-size: 18px;"> You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</p><br>
+                <div class="text" style="display: flex;">
+                    <i class="fa fa-quote-left" style="font-size: 25px;padding-right: 10px;"></i>
+                    <p style="font-size: 18px;">You are not allowed to redistribute this template ZIP file on any other website.</p>
+                </div><br><br>
+                <p style="font-size: 18px;color: grey;">There are 5 pages included in this HexaShop Template and we are providing it to you for absolutely free of charge at our TemplateMo website. There are web development costs for us.</p><br><br>
+                <p style="font-size: 18px;color: grey;">If this template is beneficial for your website or business, please kindly <a href="#" style="color: blue;text-decoration: none;">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.</p><br><br> 
+                <button>Dicover More</button>
+            </div>
+            <div class="explore-right">
+                <div class="box" id="box1">
+                    <h1 >Leather Bags</h1>
+                    <p style="color: grey;">Latest Collection</p>
+                </div>
+                <div class="box" id="image">
+                    <img src="explore-image-01.jpg" alt="">
+                </div>
+                <div class="box" id="image">
+                    <img src="explore-image-02.jpg" alt="">
+                </div>
+                <div class="box" id="box1">
+                    <h1>Different Types</h1>
+                    <p style="color: grey;">Over 304 Products</p>
+                </div>
+            </div>
+        </div>
+        <!-- social -->
+        <div class="social-media">
+            <div class="header-social">
+                <h1>Social Media</h1>
+                <p style="color: grey;">Details to details is what makes Hexashop different from the other themes.</p>
+            </div>
+            <div class="bottom-social">
+                <div class="blocker">
+                    <img src="instagram-01.jpg" alt="">
+                    <div class="blocker-black">
+
+                        <h4>Fashion</h4>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="blocker">
+                    <img src="instagram-02.jpg" alt="">
+                    <div class="blocker-black">
+
+                        <h4>News</h4>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="blocker">
+                    <img src="instagram-03.jpg" alt="">
+                    <div class="blocker-black">
+
+                        <h4>Brand</h4>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="blocker">
+                    <img src="instagram-04.jpg" alt="">
+                    <div class="blocker-black">
+
+                        <h4>Make up</h4>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="blocker">
+                    <img src="instagram-05.jpg" alt="">
+                    <div class="blocker-black">
+
+                        <h4>leather</h4>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="blocker">
+                    <img src="instagram-06.jpg" alt="">
+                    <div class="blocker-black">
+
+                        <h4>bag</h4>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="email-blocker">
+            <div class="email-left">
+                <div class="detail-top">
+                    <h1>By Subscribing To Our Newsletter You</h1>
+                    <h1>Can Get 30% Off</h1>
+                    <p style="color: 
+                    grey;">Details to details is what makes Hexashop different from the other themes.</p>
+                </div>
+                <div class="input-email">
+                    <input type="name" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email Address">
+                    <button><i class="fa fa-paper-plane"></i></button>
+                </div>
+            </div>
+            <div class="email-center">
+                <h2>Work Hours :</h2>
+                <p style="color: gray;font-size: 16px;">07:30 AM - 9:30 PM Daily</p><br>
+
+                <h2>Email :</h2>
+                <p style="color: gray;font-size: 16px;">info@company.com</p><br>
+                
+                <h2>Office Location :</h2>
+                <p style="color: gray;font-size: 16px;">North Miami Beach </p><br>
+                
+            </div>
+            <div class="email-right">
+                <h2>Store Location :</h2>
+                <p style="color: gray;font-size: 16px;">Sunny Isles Beach, FL 33160, United States  </p><br>
+
+                <h2>Phone :</h2>
+                <p style="color: gray;font-size: 16px;">010-020-0340 </p><br>
+                
+                <h2>Social Media :</h2><br>
+                <div class="a">
+                    <a href="#">Facebook</a>,
+                <a href="#">Instagram</a>,
+                <a href="#">Behance</a>,
+                <a href="#">Linkdin</a>
+                </div>
+                
+            </div>
+        </div>
+        <!-- contact -->
+        <div class="contact">
+            <div class="contact-top">
+                <div class="block1">
+                    <div class="logo">
+                       <img src="white-logo.png" alt="">
+                    </div><br><br>
+                    <div class="a-tag">
+                        <a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a><br><br>
+                    <a href="#">hexashop@compay.com</a><br><br>
+                    <a href="#">010-020-0340</a>
+                    </div>
+                </div>
+                <div class="block1">
+                    <h3 style="color: white;padding-left: 10%;">Shopping & Categories</h3><br><br>
+                    <div class="a-tag">
+                        <a href="#">Men's Shopping</a><br><br>
+                        <a href="#">Women's Shopping</a><br><br>
+                        <a href="#">Kid's Shopping</a>
+                    </div>
+                </div>
+                <div class="block1">
+                    <h3 style="color: white;padding-left: 10%;">Useful Links</h3><br><br>
+                    <div class="a-tag">
+                        <a href="#">Homepage</a><br><br>
+                        <a href="#">About us</a><br><br>
+                        <a href="#">Help</a><br><br>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="block1">
+                    <h3 style="color: white;padding-left: 10%;">Shopping & Categories</h3><br><br>
+                    <div class="a-tag">
+                        <a href="#">help</a><br><br>
+                        <a href="#">FAQ's</a><br><br>
+                        <a href="#">Shipping</a><br><br>
+                        <a href="#">Tracking ID</a>
+                    </div>
+                </div>
+
+            </div><hr>
+            <div class="contact-bottom">
+                <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved</p><br>
+                <p>Design: <a href="#">TemplateMo</a></p><br>
+                <div class="contact-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-behance"></i>
+                </div>
+            </div>
+        </div>
+    </body>
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper', {
+      slidesPerView: 3,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        },
+      },
+    });
+
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 1060 ? 'vertical' : 'horizontal';
+
+      return direction;
+    }
+  </script>
+</html>
